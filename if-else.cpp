@@ -12,22 +12,45 @@ int main(){
  //  cout << "Integer is Odd.";
  // }
 
- int l;
- cout << "Enter the length of rectangle :- ";
- cin >> l;
+ // int l;
+ // cout << "Enter the length of rectangle :- ";
+ // cin >> l;
 
- int b;
- cout << "Enter the breadth of rectangle :- ";
+ // int b;
+ // cout << "Enter the breadth of rectangle :- ";
+ // cin >> b;
+
+ // int area = l*b;
+ // int perimeter = 2*(l+b);
+
+ // if (area > perimeter){
+ //  cout << "Area is greater than perimeter.";
+ // }
+ // else{
+ //  cout << "Primeter is greater than area.";
+ // }
+
+ //least number within 3 integer
+
+ int a , b , c;
+
+ cout << "Enter the first number :- ";
+ cin >> a; 
+
+ cout << "Enter the second number :- ";
  cin >> b;
 
- int area = l*b;
- int perimeter = 2*(l+b);
+ cout << "Enter the third number :- ";
+ cin >> c;
 
- if (area > perimeter){
-  cout << "Area is greater than perimeter.";
+ if (a<b && a<c){
+  cout << "A is least number.";
  }
- else{
-  cout << "Primeter is greater than area.";
+ else if (b<a && b<c){
+  cout << "B is the least.";
+ }
+ else {
+  cout << "C is the least.";
  }
 
  return 0;
