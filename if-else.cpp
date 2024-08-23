@@ -62,7 +62,12 @@ int main(){
   }
  }
  else {
-  cout << b << " is greatest.";
+  if (b>c){
+   cout << b << " is greatest.";
+  }
+  else{
+   cout << c << " is greatest.";
+  }
  }
 
  return 0;
