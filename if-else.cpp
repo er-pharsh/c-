@@ -44,13 +44,13 @@ int main(){
  cin >> c;
 
  if (a<b && a<c){
-  cout << "A is least number.";
+  cout << to_string(a) + " A is least number.";
  }
  else if (b<a && b<c){
-  cout << "B is the least.";
+  cout << to_string(b) + " B is the least.";
  }
  else {
-  cout << "C is the least.";
+  cout << to_string(c) + " C is the least.";
  }
 
  return 0;
