@@ -134,18 +134,18 @@ int main(){
 
  // SUM OF INTEGER DIGITS
 
- int n;
- cout << "Enter the number :- ";
- cin >> n;
+ // int n;
+ // cout << "Enter the number :- ";
+ // cin >> n;
  
- int sum = 0;
+ // int sum = 0;
 
- for (int i=n ; n!=0 ; n/=10){
-  int l = n%10;
-  sum += l;
- }
+ // for (int i=n ; n!=0 ; n/=10){
+ //  int l = n%10;
+ //  sum += l;
+ // }
 
- cout << "Sum of the integer is " << sum;
+ // cout << "Sum of the integer is " << sum;
 
  return 0;
 }
