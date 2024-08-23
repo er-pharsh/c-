@@ -147,5 +147,64 @@ int main(){
 
  // cout << "Sum of the integer is " << sum;
 
+ // SUM OF THE EVEN NUMBER IN DIGITS
+
+ // int n;
+ // cout << "Enter the number :- ";
+ // cin >> n;
+
+ // int sum = 0;
+
+ // while(n != 0){
+ //  int l =n%10;
+ //  n = n/10;
+ //  if (l%2 == 0){
+ //   sum += l;
+ //  }
+ // }
+ // cout << "Number of digit is " << sum;
+
+ // PRINT THE REVERSE OF THE NUMBER
+
+ // int n;
+ // cout << "Enter the number :- ";
+ // cin >> n;
+ // int di = n; 
+ // int rv = 0;
+
+ // while(n!=0){
+ //  int l = n%10;
+ //  n /= 10;
+
+ //  rv = rv * 10;
+ //  rv = rv + l;
+
+ // }
+
+ // cout << "The reverse digit is " << rv << endl;
+ // cout << "Sum of teo digits are " << di << " + " << rv << " :- " << di+rv;
+
+ // FIND THE FECTORIAL OF THE NUMBER
+
+ // int n;
+ // cout << "Enter the number :- ";
+ // cin >> n;
+ // int fec = 1;
+ // while (n>=1){
+ //  fec = fec * n;
+ //  cout  << fec << " ";
+ //  n--;
+ // }
+ // cout << endl;
+ // cout << "The fectorial of the number is :- " << fec;
+
+ // ASCII VALUE AND CHARACTER
+
+ // int char ch;
+
+ // for (int i=65 ; i<=90 ; i++){
+ //  cout << i << " " << char(i) << endl;
+ // }
+
  return 0;
 }
