@@ -43,14 +43,26 @@ int main(){
  cout << "Enter the third number :- ";
  cin >> c;
 
- if (a<b && a<c){
-  cout << to_string(a) + " A is least number.";
- }
- else if (b<a && b<c){
-  cout << to_string(b) + " B is the least.";
+ // if (a<b && a<c){
+ //  cout << to_string(a) + " A is least number.";
+ // }
+ // else if (b<a && b<c){
+ //  cout << to_string(b) + " B is the least.";
+ // }
+ // else {
+ //  cout << to_string(c) + " C is the least.";
+ // }
+
+ if (a>b){
+  if (a>c){
+   cout << a << " is greatest.";
+  }
+  else{
+   cout << c << " is greatest.";
+  }
  }
  else {
-  cout << to_string(c) + " C is the least.";
+  cout << b << " is greatest.";
  }
 
  return 0;
