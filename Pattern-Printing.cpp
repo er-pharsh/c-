@@ -35,7 +35,7 @@ int main(){
 //   cout << endl;
 //  }
 
- // int n = 6;
+ // int n = 5;
  // for (int i=n ; i>=1 ; i--){
  //  for (int z=(i) ; z<=(n-1) ; z++){
  //   cout << "  ";
@@ -113,6 +113,81 @@ int main(){
  //   else {
  //    cout << "0 ";
  //   }
+ //  }
+ //  cout << endl;
+ // }
+
+ // for (int i=1 ; i<=5 ; i++){
+ //  for (int j=1 ; j<=5 ; j++){
+ //   if (j == 3 || i == 3 ){
+ //    cout << "* ";
+ //   }
+ //   else {
+ //    cout << "  ";
+ //   }
+ //  }
+ //  cout << endl;
+ // }
+
+ // for (int i=1 ; i<=5 ; i++){
+ //  for (int j=1 ; j<=5 ; j++){
+ //   if (i==1 || j==1 || i==5 || j==5){
+ //    cout << "* ";
+ //   }
+ //   else {
+ //    cout << "  ";
+ //   }
+ //  }
+ //  cout << endl;
+ // }
+
+ // for (int i=1 ; i<=5 ; i++){
+ //  for (int j=1 ; j<=5 ; j++){
+ //   if ((i-j) == 0 || (5+i+j)%11 == 0){
+ //    cout << "* ";
+ //   }
+ //   else {
+ //    cout << "  ";
+ //   }
+ //  }
+ //  cout << endl;
+ // }
+
+ // for (int i=1 ; i<=5 ; i++){
+ //  for (int j=1 ; j<=(5-i) ; j++){
+ //   cout << "  ";
+ //  }
+ //  for (int z=1 ; z<=5 ; z++){
+ //   cout << "* ";
+ //  }
+ //  cout << endl;
+ // }
+
+ // for (int i=1 ; i<=5 ; i++){
+ //  for (int j=1 ; j<=(5-i) ; j++){
+ //   cout << "  ";
+ //  }
+ //  for (int z=1 ; z<=(2*i-1) ; z++){
+ //   cout << z << " ";
+ //  }
+ //  cout << endl;
+ // }
+
+ // for (int i=1 ; i<=5 ; i++){
+ //  for (int j=1 ; j<=(5-i) ; j++){
+ //   cout << "  ";
+ //  }
+ //  for (int z=1 ; z<=(2*i-1) ; z++){
+ //   cout << "* ";
+ //  }
+ //  cout << endl;
+ // }
+ // for (int a=4 ; a>=1 ; a--){
+ //  for (int b=a ; b<=4 ; b++){
+ //   cout << "  ";
+ //  }
+ //  for (int c=1 ; c<=(2*a-1) ; c++){
+ //   cout << "* ";
  //  }
  //  cout << endl;
  // }
