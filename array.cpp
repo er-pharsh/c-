@@ -16,17 +16,17 @@ int main(){
  // }
  // cout << "Sum of the array is :- " << sum;
 
- int arr[] = {2,2,3,4,5,1};
- int n = sizeof(arr)/4;
+ // int arr[] = {2,2,3,4,5,1};
+ // int n = sizeof(arr)/4;
 
- int mx = arr[0];
- for (int i=1 ; i<n ; i++){
-  if (mx < arr[i]){
-   mx = arr[i];
-  }
- }
+ // int mx = arr[0];
+ // for (int i=1 ; i<n ; i++){
+ //  if (mx < arr[i]){
+ //   mx = arr[i];
+ //  }
+ // }
 
- cout << "Max value is :- " << mx;
+ // cout << "Max value is :- " << mx;
 
 
  return 0;
